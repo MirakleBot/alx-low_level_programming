@@ -6,7 +6,6 @@
  * Description: this displaces lowercap alphabets
  * return 0
  */
-
 int main(void)
 {
 	char c = 'a';
