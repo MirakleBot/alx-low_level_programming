@@ -7,11 +7,5 @@
 
 int _isdigit(int c)
 {
-	int c;
-
-	c = 0;
-		for (c <= 9)
-		{
-			_putchar('c');
-		}
+	return (c >= '0' && c <= '9');
 }
