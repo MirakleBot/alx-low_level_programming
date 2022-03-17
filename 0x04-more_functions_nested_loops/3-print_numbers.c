@@ -4,9 +4,14 @@
  */
 void print_numbers(void)
 {
-	for (char c = 0; c <= 9; c++;)
+	char num;
+
+	num = 0;
+
+	for (num <= 9)
 	{
-		_putchar('c');
+		_putchar('num');
+		num++
 	}
 	_putchar('\n');
 }
